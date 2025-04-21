@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CnKARZ | Giới Thiệu</title>
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/bootstrap.js"></script>
+
+  <link rel="stylesheet" href="../css/style2.css">
+  <link rel="stylesheet" href="../css/boxicons.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <a href="../html/home.html" class="logo">Cn<span>KARZ</span></a>
+
+      <ul class="navbar" id="navbar">
+        <li><a href="../html/home.html">TRANG CHỦ</a></li>
+        <li><a href="../html/about.html">GIỚI THIỆU</a></li>
+        <li><a href="../html/cars.html">SẢN PHẨM</a></li>
+        <li><a href="../html/parts.html">PHỤ KIỆN</a></li>
+        <li><a href="../html/blog.html">BLOG</a></li>
+        <li><a href="../html/contact.html">LIÊN HỆ</a></li>
+      </ul>
+
+      <div class="header-right">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-search' id="search-icon"></i>
+        <a href="../html/cart.html">
+          <i class='bx bx-cart' id="cart-icon"></i>
+          <span class="cart-item-count"></span>
+        </a>
+
+        <a href="../html/login.html" class="login-btn">
+          <button type="button" class="btn btn-outline-primary">ĐĂNG NHẬP</button>
+        </a>
+        <div id="welcome-message" class="user-section d-none">
+          <div class="welcome-text">Xin chào, <span id="user-name"></span></div>
+          <a href="../html/logout.html" class="logout-icon" title="Đăng xuất">
+            <i class='bx bx-log-out'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="search-box container">
+        <input type="search" placeholder="Search something...">
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <img src="../img/about.png" alt="Xe chất lượng cao" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <span class="text-muted">Giới Thiệu</span>
+          <h2 class="mt-2 mb-3">
+            Xe Chất Lượng Cao <br>
+            Với Đội Ngũ Phục Vụ Tận Tâm
+          </h2>
+          <p>
+            Mỗi chiếc xe không chỉ là phương tiện di chuyển, mà còn là tuyên ngôn về phong cách sống.
+            Chúng tôi đồng hành cùng bạn trên mọi hành trình bằng dịch vụ tận tâm và chuẩn mực.
+          </p>
+        </div>
+      </div>
+
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <div class="info-box">
+            <h4>Chúng tôi là...</h4>
+            <p>Tại CnKARZ, chúng tôi chuyên về xe sang trọng, tập trung vào hiệu suất, thiết kế và độ tin cậy. Chúng tôi
+              mong muốn cung cấp cho bạn sự lựa chọn phương tiện tốt nhất, đảm bảo trải nghiệm suôn sẻ và thú vị khi mua
+              chiếc xe mơ ước của bạn.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-box">
+            <h4>Sứ mệnh</h4>
+            <p>Nhiệm vụ của chúng tôi là cung cấp những chiếc xe hiệu suất cao kết hợp giữa sự sang trọng và độ tin cậy.
+              Chúng tôi cố gắng tạo ra trải nghiệm mua xe đặc biệt, với dịch vụ đặc biệt, lời khuyên của chuyên gia và
+              nhiều lựa chọn dành cho bạn.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-box">
+            <h4>Tầm nhìn</h4>
+            <p>Chúng tôi mong muốn trở thành nhà cung cấp xe sang hàng đầu trên toàn thế giới. Tầm nhìn của chúng tôi là
+              xây dựng mối quan hệ lâu dài với khách hàng bằng cách cung cấp cho họ giá trị đáng giá và trải nghiệm liền
+              mạch, thú vị.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <h2>Liên Hệ Với Chúng Tôi</h2>
+      <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn. Hãy để lại tin nhắn cho chúng tôi bất kỳ lúc nào!</p>
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Họ và tên" required>
+          <input type="email" placeholder="Email" required>
+          <input type="tel" placeholder="Số điện thoại" required>
+          <textarea rows="5" placeholder="Nội dung tin nhắn" required></textarea>
+          <button type="submit">Gửi Tin Nhắn</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer-container container">
+      <div class="footer-box">
+        <a href="#" class="logo">Cn<span>KARZ</span></a>
+        <div class="social">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Page</h3>
+        <a href="../html/sitemap.html">SiteMap</a>
+        <a href="../html/home.html">Trang Chủ</a>
+        <a href="../html/about.html">Giới Thiệu</a>
+        <a href="../html/cars.html">Sản Phẩm</a>
+        <a href="../html/parts.html">Phụ Kiện</a>
+        <a href="../html/blog.html">Blog</a>
+        <a href="../html/contact.html">Liên Hệ</a>
+      </div>
+      <div class="footer-box">
+        <h3>Legal</h3>
+        <a href="#">Privacy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <p>VietNam</p>
+        <p>United States</p>
+        <p>Japan</p>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">
+    <p>&#169; Created By Chau Ngoc Khanh | All Rights Reserved</p>
+  </div>
+  <script src="../js/main.js"></script>
+  <script src="../js/car-detail.js"></script>
+</body>
+
+</html>

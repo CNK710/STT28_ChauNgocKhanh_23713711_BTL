@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CnKARZ | Giỏ Hàng</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/boxicons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="../html/home.html" class="logo">Cn<span>KARZ</span></a>
+
+            <ul class="navbar" id="navbar">
+                <li><a href="../html/home.html">TRANG CHỦ</a></li>
+                <li><a href="../html/about.html">GIỚI THIỆU</a></li>
+                <li><a href="../html/cars.html">SẢN PHẨM</a></li>
+                <li><a href="../html/parts.html">PHỤ KIỆN</a></li>
+                <li><a href="../html/blog.html">BLOG</a></li>
+                <li><a href="../html/contact.html">LIÊN HỆ</a></li>
+            </ul>
+
+            <div class="header-right">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-search' id="search-icon"></i>
+                <a href="../html/cart.html">
+                    <i class='bx bx-cart' id="cart-icon"></i>
+                    <span class="cart-item-count"></span>
+                </a>
+
+                <a href="../html/login.html" class="login-btn">
+                    <button type="button" class="btn btn-outline-primary">ĐĂNG NHẬP</button>
+                </a>
+                <div id="welcome-message" class="user-section d-none">
+                    <div class="welcome-text">Xin chào, <span id="user-name"></span></div>
+                    <a href="../html/logout.html" class="logout-icon" title="Đăng xuất">
+                        <i class='bx bx-log-out'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="search-box container">
+                <input type="search" placeholder="Search something...">
+            </div>
+        </div>
+    </header>
+
+    <div class="cart container">
+        <div class="cart-header">
+            <span>Sản Phẩm</span>
+            <span>Giá Tiền</span>
+            <span>Số Lượng</span>
+            <span>Tổng Cộng</span>
+            <span>Xóa</span>
+        </div>
+        <div class="cart-list">
+            <div class="cart-item">
+
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <h3>Hóa Đơn Của Bạn</h3>
+            <p>Tạm Tính <span class="subtotal">0 VNĐ</span></p>
+            <p>Phí Vận Chuyển <span>Free</span></p>
+            <p>Tổng Cộng <span class="grand-total">0 VNĐ</span></p>
+            <button class="btn">Thanh Toán</button>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Cn<span>KARZ</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="../html/sitemap.html">SiteMap</a>
+                <a href="../html/home.html">Trang Chủ</a>
+                <a href="../html/about.html">Giới Thiệu</a>
+                <a href="../html/cars.html">Sản Phẩm</a>
+                <a href="../html/parts.html">Phụ Kiện</a>
+                <a href="../html/blog.html">Blog</a>
+                <a href="../html/contact.html">Liên Hệ</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>VietNam</p>
+                <p>United States</p>
+                <p>Japan</p>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; Created By Chau Ngoc Khanh | All Rights Reserved</p>
+    </div>
+    <script src="../js/main.js"></script>
+
+    <script src="../js/cars.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/car-detail.js"></script>
+
+</body>
+
+</html>
